@@ -413,7 +413,7 @@ podman pull ghcr.io/open-webui/open-webui:main
 
 **컨테이너 실행**:
 ```bash
-podman rm -f open-webui 2>/dev/null || true
+# podman rm -f open-webui 2>/dev/null || true
 podman run -d \
   --name open-webui \
   --network hol-net \
