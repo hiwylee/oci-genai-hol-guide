@@ -418,8 +418,8 @@ podman run -d \
   --name open-webui \
   --network hol-net \
   -p 8080:8080 \
-  --env-file=~/hol/open-webui/.env \
-  -v ~/hol/wallet:/home/opc/hol/wallet:Z \
+  --env-file=/home/opc/hol/open-webui/.env \
+  -v /home/opc/hol/wallet:/home/opc/hol/wallet:Z \
   -v open-webui:/app/backend/data \
   --restart=always \
   ghcr.io/open-webui/open-webui:main
