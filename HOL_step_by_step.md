@@ -273,7 +273,7 @@ podman run -d \
   --name oci-genai-access-gateway \
   --network hol-net \
   -p 8088:8088 \
-  -v ~/hol/oci_genai_gateway/.oci:/root/.oci:Z \
+  -v /home/opc/hol/oci_genai_gateway/.oci:/root/.oci:Z \
   --restart=always \
   localhost/oci-genai-access-gateway:latest
 ```
