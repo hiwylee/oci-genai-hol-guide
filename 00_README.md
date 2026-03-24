@@ -243,8 +243,14 @@ sudo firewall-cmd --reload
 
 ---
 
-## 단계별 상세 가이드
+## 학습 문서 목차
 
-각 단계의 스크립트 코드·생성 파일 내용·동작 원리를 직접 따라하며 확인하려면:
+각 단계의 스크립트 코드·생성 파일 내용·동작 원리를 직접 따라하며 확인하려면 아래 문서를 순서대로 진행하세요.
 
-**[→ HOL_step_by_step.md](./HOL_step_by_step.md)**
+| # | 문서 | 내용 |
+|---|------|------|
+| 00 | [00_README.md](./00_README.md) | 실습 개요 · 아키텍처 · 빠른 시작 |
+| 01 | [01_prerequisites.md](./01_prerequisites.md) | 사전 준비 · OCI 개념 · 인증 이해 |
+| 02 | [02_step_by_step.md](./02_step_by_step.md) | 단계별 상세 실습 (Gateway · ADW · Open-WebUI) |
+| 03 | [03_rag_guide.md](./03_rag_guide.md) | RAG 실습 — Knowledge Base 구축 |
+| 04 | [04_openwebui_tools.md](./04_openwebui_tools.md) | Open-WebUI Tools — 외부 API 연결 |
